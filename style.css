@@ -5,6 +5,10 @@ html {
     background-attachment: fixed;
 }
 
+header {
+    padding-bottom: 3rem;
+}
+
 .foot-text {
     background-color: rgba(0, 0, 0, 0.4);
     color: beige;
@@ -17,11 +21,10 @@ html {
     background-repeat: no-repeat;
     height: 300px;
     width: auto;
-    padding: 0 5%;
     background-size: cover;
     background-position: center;
     min-width: 500px;
-    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
 header h1 {
@@ -30,7 +33,7 @@ header h1 {
     text-shadow: 3px 3px rgb(0, 0, 0);
     text-align: center;
     margin-bottom: auto;
-    font-size: 6em;
+    font-size: 7vw;
 }
 
 footer {
@@ -41,6 +44,18 @@ footer {
     height: 50px;
 }
 
+.main-content {
+    background-color: rgba(248, 231, 215, 0.4);
+    column-count: 3;
+    column-gap: 0.5rem;
+    column-rule-style: solid;
+    column-rule-color: rgb(49, 35, 21);
+    column-rule-width: 3px;
+
+}
+
 .content {
-    font-size: 4em;
+    font-size: 1.5em;
+    line-height: 1.5;
+    
 }

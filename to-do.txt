@@ -1,6 +1,6 @@
-v make footer stick to bottom of -screen-, not content;
+v make footer stick to bottom of -screen-, not content; (position: sticky)
 - make button with some function, such as open up a popup message (not alert);
 - make flexbox content in 3 columns;
 - add a video panel;
 - use some in-line styling;
-- make title not wrap;
+v make title not wrap; (font size vw, whitespace nowrap)
