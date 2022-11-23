@@ -1,16 +1,17 @@
 * {
-    font-family: 'Sono', sans-serif;
-    font-size: 62.5%;
+    
 }
 html {
     background-image: url(/brown-sand.avif);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    font-family: 'Sono', sans-serif;
+    font-size: 62.5%;
 }
 
 header {
-    padding-bottom: 3rem;
+    padding-bottom: 3em;
 }
 
 
@@ -31,23 +32,22 @@ header h1 {
     text-shadow: 3px 3px rgb(0, 0, 0);
     text-align: center;
     margin-bottom: auto;
-    font-size: 7rem;
+    font-size: 7em;
 }
 
+main {
+    font-size: 1.4em;
+}
+h2 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
 
 .main-h2 {
     column-span: all;
-    font-size: 2rem;
-}
-
-.c1 {
-    column-span: 1;
-}
-.c2 {
-    column-span: 1;
-}
-.c3 {
-    column-span: 1;
 }
 
 .main-content {
@@ -57,14 +57,14 @@ header h1 {
     column-rule-style: solid;
     column-rule-color: rgb(49, 35, 21);
     column-rule-width: 3px;
-
 }
 
-.content {
-    font-size: 1.5rem;
-    line-height: 1.5;
+
+.media-content {
+    background-color: rgba(248, 231, 215, 0.4);
     
 }
+
 
 
 

@@ -4,3 +4,5 @@ v make footer stick to bottom of -screen-, not content; (position: sticky) ~not 
 - add a video panel;
 - use some in-line styling;
 v make title not wrap; (font size vw, whitespace nowrap)
+
+> REM V EM:     https://www.geeksforgeeks.org/difference-between-em-and-rem-units-in-css/
