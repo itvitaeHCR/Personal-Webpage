@@ -1,4 +1,4 @@
-v make footer stick to bottom of -screen-, not content; (position: sticky)
+v make footer stick to bottom of -screen-, not content; (position: sticky) ~not finished: goes up when main too small
 - make button with some function, such as open up a popup message (not alert);
 - make flexbox content in 3 columns;
 - add a video panel;
