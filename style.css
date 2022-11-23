@@ -1,13 +1,14 @@
-* {
-    
-}
 html {
-    background-image: url(/brown-sand.avif);
+    background-image: url(/brown-sand.avif), linear-gradient(to right, #6DB3F2, #00172b);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-family: 'Sono', sans-serif;
     font-size: 62.5%;
+}
+
+body {
+    padding: 0 20px;
 }
 
 header {
@@ -62,7 +63,13 @@ p {
 
 .media-content {
     background-color: rgba(248, 231, 215, 0.4);
-    
+}
+.media-sub {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.media-m2 {
+    justify-content: right;
 }
 
 
