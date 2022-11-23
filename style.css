@@ -31,8 +31,12 @@ header h1 {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    position: relative;
+    margin-bottom: -100vp;
+    width: 0fr;
     height: 50px;
+}
+
+.content {
+    font-size: 1em;
 }
